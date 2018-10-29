@@ -1,0 +1,45 @@
+{
+  "name": "conversation-discovery-nodejs",
+  "version": "1.0.0",
+  "description": "One simple example using the Official project Conversation simple and adding the functionality for integrated with Discovery service",
+  "main": "server.js",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayurimizuguchi/conversation-with-discovery.git"
+  },
+  "keywords": [
+    "discovery",
+    "conversation",
+    "node.js"
+  ],
+  "author": "Conversation simple authors and Sayuri Mizuguchi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^2.0.0",
+    "express": "^4.16.4",
+    "watson-developer-cloud": "^2.42.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "casperjs": "^1.1.4",
+    "codecov": "^1.0.1",
+    "eslint": "^2.8.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "phantomjs-prebuilt": "^2.1.15",
+    "supertest": "^1.2.0"
+  },
+  "engines": {
+    "node": ">= 6.9.x",
+    "npm": "> 3.10.x"
+  },
+  "bugs": {
+    "url": "https://github.com/sayurimizuguchi/conversation-with-discovery/issues"
+  },
+  "homepage": "https://github.com/sayurimizuguchi/conversation-with-discovery#readme"
+}
